@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./icon/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar__logo">
+                <h3>LOGO</h3>
+            </div>
+    
+            <div class="sidebar__categories">
+                <a href="" class="sidebar__categories--item sidebar-button">Shirts</a>
+                <a href="" class="sidebar__categories--item sidebar-button">Dresses</a>
+                <a href="" class="" style="text-decoration: none;">
+                    <div class="sidebar__categories--item sidebar-button sidebar__categories--item__target sidebar__categories--item__target-text">
+                        Jeans
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                    <ul class="target-list">
+                        <li class="target-item target-item--chosen">
+                            <i class="fas fa-caret-right" style="margin-right: 12px;"></i>
+                            Skinny
+                        </li>
+                        <li class="target-item">Relaxed</li>
+                        <li class="target-item">Bootcut</li>
+                        <li class="target-item">Straight</li>
+                    </ul>
+                </a>
+                <a href="" class="sidebar__categories--item sidebar-button">Jacket</a>
+                <a href="" class="sidebar__categories--item sidebar-button">Gymwear</a>
+                <a href="" class="sidebar__categories--item sidebar-button">Blazers</a>
+                <a href="" class="sidebar__categories--item sidebar-button">Shoes</a>
+
+            </div>
+    
+            <div class="sidebar__links">
+                <div class="sidebar-button sidebar__links--item">Contact</div>
+                <div class="sidebar-button sidebar__links--item">Newletter</div>
+                <div class="sidebar-button sidebar__links--item">Subcribe</div>
+
+            </div>
+        </div>
+        <div class="header-sidebar">
+            <div class="sidebar__logo responsive-header-logo">
+                <h3>LOGO</h3>
+            </div>
+
+            <div class="responsive-header-list">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <div class="main-container">
+            <header>
+                <p class="header__title">
+                    Jeans
+                </p>
+
+                <div class="header__icons">
+                    <i class="fas fa-shopping-cart" style="margin-right: 16px;"></i>
+                    <i class="fas fa-search"></i>
+                </div>
+            </header>
+
+            <div class="banner">
+                <img src="./img/jeans.jpg" alt="" class="banner__img">
+                <div class="banner__text">
+                    <h1 class="banner__title">New Arrivals</h1>
+                    <h1 class="banner__subtitle">Collection 2016</h1>
+                    <a href="#products">SHOP NOW</a>
+                </div>
+            </div>
+
+            <div id="products">
+                <div class="products__quantity">8 items</div>
+
+                <div class="products__list grid">
+                    <div class="row">
+                        <div class="col l-3 m-6 c-6">
+                            <div class="product-item">
+                                <img src="./img/jeans1.jpg" alt="" class="product__img">
+                                <div class="product__des">
+                                    <p class="product__name">Ripped Skinny Jeans</p>
+                                    <span class="product__price">$24.99</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="product-item">
+                                <div class="product__tags">
+                                    <img src="./img/jeans2.jpg" alt="" class="product__img">
+                                    <div class="tags__name">New</div>
+                                    <button class="buy-button">
+                                        Buy now <i class="fas fa-shopping-cart"></i>
+                                    </button>
+                                </div>
+                                
+                                <div class="product__des">
+                                    <p class="product__name">Mega Ripped Jeans</p>
+                                    <span class="product__price">$19.99</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="product-item">
+                                <img src="./img/jeans3.jpg" alt="" class="product__img">
+                                <div class="product__des">
+                                    <p class="product__name">Washed Skinny Jeans</p>
+                                    <span class="product__price">$20.50</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="product-item">
+                                <div class="product__tags">
+                                    <img src="./img/jeans4.jpg" alt="" class="product__img">
+                                    <div class="tags__name">Sale</div>
+                                    <button class="buy-button">
+                                        Buy now <i class="fas fa-shopping-cart"></i>
+                                    </button>
+                                </div>
+                                <div class="product__des">
+                                    <p class="product__name">Vintage Skinny Jeans</p>
+                                    <span class="product__price" style="color: #f44336;">$14.99</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="product-item">
+                                <div class="product__tags">
+                                    <img src="./img/jeans2.jpg" alt="" class="product__img">
+                                    <div class="tags__name">New</div>
+                                    <button class="buy-button">
+                                        Buy now <i class="fas fa-shopping-cart"></i>
+                                    </button>
+                                </div>
+                                
+                                <div class="product__des">
+                                    <p class="product__name">Mega Ripped Jeans</p>
+                                    <span class="product__price">$19.99</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="product-item">
+                                <img src="./img/jeans3.jpg" alt="" class="product__img">
+                                <div class="product__des">
+                                    <p class="product__name">Washed Skinny Jeans</p>
+                                    <span class="product__price">$20.50</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="product-item">
+                                <div class="product__tags">
+                                    <img src="./img/jeans4.jpg" alt="" class="product__img">
+                                    <div class="tags__name">Sale</div>
+                                    <button class="buy-button">
+                                        Buy now <i class="fas fa-shopping-cart"></i>
+                                    </button>
+                                </div>
+                                <div class="product__des">
+                                    <p class="product__name">Vintage Skinny Jeans</p>
+                                    <span class="product__price" style="color: #f44336;">$14.99</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-6">
+                            <div class="product-item">
+                                <img src="./img/jeans1.jpg" alt="" class="product__img">
+                                <div class="product__des">
+                                    <p class="product__name">Ripped Skinny Jeans</p>
+                                    <span class="product__price">$24.99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="subcribe">
+                <div class="subcribe-container">
+                    <h1 class="subcribe__title">Subscribe</h1>
+                    <p class="subcribe__intruction">To get special offers and VIP treatment:</p>
+                    <input type="email" class="subcribe__input" placeholder="Enter your email">
+                    <button class="subcribe__button">Subcribe</button>
+                </div>
+            </div>
+
+            <div class="contact">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="contact-container">
+                                <h4 class="contact-header">Contact</h4>
+                                <p>Questions? Go ahead.</p>
+                                <input type="text" placeholder="Name">
+                                <input type="text" placeholder="Email">
+                                <input type="text" placeholder="Subject">
+                                <input type="text" placeholder="Message">
+                                <a>Send</a>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-6 c-6">
+                            <div class="about-container">
+                                <h4 class="contact-header">About</h4>
+                                <a href="">About us</a>
+                                <a href="">We're hiring</a>
+                                <a href="">Support</a>
+                                <a href="">Find store</a>
+                                <a href="">Shipment</a>
+                                <a href="">Payment</a>
+                                <a href="">Gift card</a>
+                                <a href="">Return</a>
+                                <a href="">Help</a>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-6 c-6">
+                            <div class="store-container">
+                                <h4 class="contact-header">Store</h4>
+                                <p>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Company Name</p>
+                                <p>
+                                    <i class="fas fa-phone-alt"></i>
+                                    0044123123</p>
+                                <p>
+                                    <i class="fas fa-envelope"></i>
+                                    ex@mail.com</p>
+                                <h4 class="contact-header">We accept</h4>
+                                <p>
+                                    <i class="fab fa-cc-amex"></i>
+                                    Amex</p>
+                                <p>
+                                    <i class="far fa-credit-card"></i>
+                                    Credit card
+                                </p>
+                            </div>
+
+                            <div class="contact__icons">
+                                <i class="fab fa-facebook-square"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-snapchat"></i>
+                                <i class="fab fa-pinterest-p"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer__text">
+                    <p style="margin-right: 3px;">Powered by</p> 
+                    <a href=""> w3c.css</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+</body>
+</html> 

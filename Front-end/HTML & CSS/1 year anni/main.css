@@ -1,0 +1,10 @@
+html{
+    background-color: #ffe3e3;
+    width: fit-content;
+    height: fit-content;
+}
+h1{
+    color: white;
+    position: relative;
+    left: 50%;
+}

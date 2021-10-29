@@ -1,0 +1,287 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #f1f1f1;
+    font-size: 62.5%;
+}
+
+
+/* Body */
+/* Header */
+.header {
+    width: 100%;
+    padding: 32px 16px;
+    text-align: center;
+}
+
+
+
+.header h1 {
+    font-size: 36px;
+    line-height: 54px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.header p {
+    font-size: 15px;
+    line-height: 22px;
+    margin: 16px 0;
+    color: black;
+}
+
+.header p span {
+    background-color: black;
+    color: #fff;
+    padding: 2px 8px;
+}
+
+/* Header */
+
+/* Container */
+
+/* Big section */
+.big-section {
+    background-color: #fff;
+    display: block;
+    padding: 0;
+    margin: 16px 3px 48px 3px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%);
+}
+
+.big-section-img {
+    width: 100%;
+}
+
+.big-section-text{
+    padding: 10px 16px;
+}
+
+.big-section-tittle{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.big-section-sub-tittle{
+    margin: 10px 0;
+    font-size: 18px;
+    color: black;
+}
+
+.big-section-sub-tittle span {
+    opacity: 0.6;
+}
+
+
+.big-section-des{
+    margin: 15px 0;
+    font-size: 15px;
+    line-height: 2.2rem;
+}
+
+.big-section-action{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.big-section-action__read-more{
+    font-size: 15px;
+    padding: 12px 24px;
+    font-weight: 500;
+    background-color: #fff;
+    border: 1.5px solid #000;
+    border-radius: 2px;
+    color: black;
+}
+
+.big-section-action__read-more:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.big-section-action__comment{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 24px;
+    color: black;
+}
+
+.big-section-action__comment span {
+    padding: 2px 8px;
+    color: #fff;
+    background-color: black;
+    margin-left: 2px;
+}
+/* Big section */
+/* Small section */
+.small-section {
+    margin: 16px 3px 29px 3px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%);
+}
+
+.small-section-tittle{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.small-section-img {
+    width: 100%;
+}
+
+.small-section-text{
+    padding: 10px 16px;
+}
+
+.small-section-des{
+    margin: 15px 0;
+    font-size: 15px;
+    line-height: 2.2rem;
+}
+
+/* Small section */
+
+/* Popular Post */
+.popular-post{
+    margin: 16px 3px 29px 3px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%);
+}
+
+.popular-post__header{
+    font-size: 20px;
+    line-height: 66px;
+    padding: 0px 16px;
+    background-color: #f1f1f1;
+
+}
+
+.popular-post__item{
+    display: flex;
+    padding: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.popular-post__item:hover {
+    background-color: #ccc;
+}
+
+.popular-post__item-img{
+    height: 50px;
+    width: 50px;
+    margin-right: 16px;
+}
+
+.popular-post__item-text{
+    font-size: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+.popular-post__item-text h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Popular Post */
+
+/* Tags */
+
+
+
+/* Tags */
+.tags {
+    margin: 16px 3px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%);
+}
+
+.tags__header{
+    font-size: 20px;
+    line-height: 66px;
+    padding: 0px 16px;
+    background-color: #f1f1f1;
+
+}
+
+.tags__list{
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center ;
+}
+
+.tags__item-target{
+    font-size: 15px;
+    margin-bottom: 15px;
+    background-color: #000;
+    color: #fff;
+    padding: 2px 8px;
+    margin-left: 4px;
+}
+
+.tags__item{
+    margin: 0 4px;
+    font-size: 12px;
+    margin-bottom: 15px;
+    background-color: #f1f1f1;
+    color: #000;
+    height: 16px;
+    padding: 2px 8px;
+}
+
+/* Container */
+
+/* Footer */
+.footer {
+    height: 178px;
+    background-color: #616161;
+    width: 100%;
+    margin-top: 16px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.footer-pagination button {
+    font-size: 15px;
+    padding: 12px 24px;
+    margin-bottom: 16px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+}
+
+.footer-pagination button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+
+.footer__des {
+    color: #fff;
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.footer__des a {
+    color: #fff;
+}
+
+/* Footer */
+
+
+
+/* Body */

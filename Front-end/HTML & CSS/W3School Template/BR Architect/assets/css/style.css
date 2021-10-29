@@ -1,0 +1,310 @@
+/* Base */
+:root {
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.html {
+    font-size: 62.5%;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+/* Base */
+
+
+/* Body */
+/* Header */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-navbar{
+    height: 38px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+    letter-spacing: 4px;
+    line-height: 38px;
+}
+
+.header__logo{
+    font-size: 15px;
+    padding: 0 16px;
+    font-weight: 100;
+}
+
+.header__logo span{
+    font-weight: 900;
+}
+
+.header-navbar-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.header-navbar-item{
+    font-size: 15px;
+    padding: 0 16px;
+    font-weight: 100;
+}
+
+.header-navbar-item a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.header-navbar-item:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.header__img {
+    width: 100%;
+    height: auto;
+}
+/* Header */
+
+/* Label Image */
+.label-img {
+    position: relative;
+    display: block;
+}
+
+
+.label-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+.label-img__text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    letter-spacing: 4px;
+    color: #fff;
+    font-weight: 200;
+    opacity: 0.75;
+    margin-top: 12px;
+}
+
+.label-img__text span{
+    background-color: black;
+    padding: 14px 16px;
+    font-weight: 900;
+}
+
+/* Label Image */
+/* Container */
+
+.container__item {
+    margin: 66px 32px 0;
+}
+
+.container__item-header {
+    padding-bottom: 26px;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 24px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+
+/* House list */
+.grid{
+    max-width: 100%;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+
+.col-1-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 8px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.projects-house {
+    position: relative;
+}
+
+.projects-house:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.projects-house-list{
+    list-style: none;
+    padding: 0;
+    margin-top: 32px;
+}
+
+.projects-house__img{
+    width: 100%;
+}
+
+.projects-house__des{
+    line-height: 22px;
+    font-size: 15px;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: black;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+/* House list */
+
+/* About */
+.about__text{
+    font-size: 15px;
+    line-height: 1.4rem;
+}
+
+
+.about__staff{
+    margin-top: 32px;
+}
+
+.about__staff-img{
+    width: 100%;
+
+}
+
+.about__staff-name{
+    font-weight: 100;
+    margin: 10px 0;
+    line-height: 36px;
+    font-size: 24px;
+}
+
+.about__staff-position{
+    margin: 15px 0;
+    line-height: 22px;
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+.about__staff-des{
+    font-weight: 100;
+    font-size: 15px;
+    opacity: 0.9;
+    line-height: 22px;
+}
+
+.about__staff-contact{
+    width: 100%;
+    background-color: #f1f1f1;
+    line-height: 38px;
+    border: none;
+}
+
+.about__staff-contact:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+/* About */
+/* Contact */
+#contact{
+    margin-bottom: 8px;
+}
+
+.contact-input{
+    width: 100%;
+    height: 24px;
+    padding: 8px;
+    margin-top: 16px;
+    border: 1px solid #ccc;
+}
+
+.contact-input__submit{
+    margin-top: 32px;
+    line-height: 22px;
+    padding: 8px 16px;
+    color: #fff;
+    font-size: 15px;
+    background-color: black;
+    border: none;
+}
+
+.contact-input__submit:hover {
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+
+.contact-map {
+    padding-top: 48px;
+    width: 100%;
+}
+
+/* Contact */
+
+
+/* Container */
+
+/* Body */
+/* Footer */
+
+footer{
+    height: 84px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-text{
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer-text-link{
+    color: #fff;
+}
+/* Footer*/
+
+/* Responsive */
+
+/* Tablet */
+@media (max-width:1023px) and (min-width: 740px) {
+    .col-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 8px;
+    display: block;
+    box-sizing: border-box;
+    }
+}
+
+/* Mobile */
+@media (max-width:739px) {
+    .col-1 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 8px;
+        display: block;
+        box-sizing: border-box;
+        }
+}
