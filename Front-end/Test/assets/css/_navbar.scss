@@ -1,0 +1,51 @@
+.navbar {
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+    margin-top: 70px;
+    position: relative;
+    &__icon {
+        i {
+            font-size: 24px;
+        }
+    }
+    &__modal {
+        display: none;
+        &--overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: calc(100vh - 70px);
+            background-color: #000000;
+            opacity: 0.6;
+        }
+        &--main {
+            width: 20%;
+            height: calc(100vh - 70px);
+            background-color: #000000;
+            color: #fff;
+            position: absolute;
+            top: 0;
+            left: 0;
+            i {
+                font-size: 28px;
+                position: absolute;
+                top: 16px;
+                right: 16px;
+            }
+            h1 {
+                font-size: 16px;
+                font-weight: 300;
+                margin-top: 40px;
+                &:hover {
+                    opacity: 0.6;
+                    cursor: pointer;
+                }
+            }
+        }
+        &.active {
+            display: block;
+        }
+    }
+}
